@@ -59,11 +59,16 @@ def perform_calculations():
     TOTAL = SUBTOTAL + SALESTAXAMT
 
 def display_results():
-    print('----------------------------------')
-    print('State Sales Tax      $ ' + format(TOTAL - SUBTOTAL,'8,.2f'))
-    print('Subtotal             $ ' + format(SUBTOTAL,'8,.2f'))
-    print('Total                $ ' + format(TOTAL,'8,.2f'))
-    print('----------------------------------')
+    print('~~~~~~~~~~PALERMO PIZZA~~~~~~~~~~')
+    print('---------------------------------')
+    print('Quantity                  ' + str(AMOUNTZA))
+    print('---------------------------------')
+    print('State Sales Tax     $ ' + format(TOTAL - SUBTOTAL,'8,.2f'))
+    print('Subtotal            $ ' + format(SUBTOTAL,'8,.2f'))
+    print('---------------------------------')
+    print('Total               $ ' + format(TOTAL,'8,.2f'))
+    print('---------------------------------')
+    print('-----------THANK YOU-------------')
     print(str(datetime.datetime.now()))
     
 
