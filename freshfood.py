@@ -64,11 +64,11 @@ def perform_calculations():
     if job_code == "C" or job_code == "c":
         grosspay = hoursworked * CPR
     if job_code == "S" or job_code == "s":
-        grosspay = hoursworked * CPR
+        grosspay = hoursworked * SPR
     if job_code == "J" or job_code == "j":
-        grosspay = hoursworked * CPR
+        grosspay = hoursworked * JPR
     if job_code == "M" or job_code == "m":
-        grosspay = hoursworked * CPR
+        grosspay = hoursworked * MPR
     
     fedtaxamt = grosspay * FEDERAL_TAX_RATE
     statetaxamt = grosspay * STATE_INCOME_TAX_RATE
