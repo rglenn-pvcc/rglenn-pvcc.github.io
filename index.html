@@ -1,85 +1,108 @@
 <!DOCTYPE html>
-<html lang = "en">
-<!-- Name: Robby Glenn -->
-<!-- Program Purpose: This is my PVCC index file. It will have
-    links to all of my HTML and PYTHON programs-->
-  
+<html lang="en">
 <head>
-   
-<title> Robby Glenn</title>
-<style>
-    body {background-image: url("wp-index.png");
-        font-family: arial, helvetica, sans-serif;
-        margin-top: 0px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robby Glenn - Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #683e8a, #e5a2e5);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-    h1 {color: #e5a2e5; font-size: 1.5em; margin-left: 1em;
-    }
-    h2 {color: #e5a2e5; font-size: 1.05em; margin-left: 2em;
-    }
-    h3 {font-size: .95em; margin-left: 2em;
-    }
-    ul {margin-left: 2.5em;
-    }
-    table {width: 800px; font-size: 1.3em; font-weight: bold; 
-           background-color:rgba(123, 92, 130, 70%); margin:auto;
-    }
-    
-    a {text-decoration: none;}
-    a:link {color: #ffffff}
-    a:visited {color: #ffff00;}
-    a:hover {color: #d457ab;}
-    a:active {color: #20bbbb;}
+        h1, h2, h3 {
+            color: #fff;
+            margin-left: 1em;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        h2 {
+            font-size: 1.05em;
+            margin-left: 2em;
+        }
+        h3 {
+            font-size: .95em;
+            margin-left: 2em;
+        }
+        ul {
+            margin-left: 2.5em;
+        }
+        table {
+            width: 800px;
+            font-size: 1.3em;
+            font-weight: bold;
+            background-color: rgba(123, 92, 130, 0.7);
+            margin: auto;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd) {
+            background-color: #683e8a;
+        }
+        td {
+            padding: 10px;
+        }
+        /* Add highlight and shadow to links on hover */
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+        a:hover {
+            color: #d457ab;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
     </style>
-
 </head>
 <body>
     <table>
-        <tr style = "background-color: #683e8a; ">
+        <tr>
             <td><a href="index.html">Home</a></td>
             <td><a href="https://www.pvcc.edu">PVCC</a></td>
             <td><a href="https://www.w3schools.com/html/">W3 Schools</a></td>
             <td><a href="contactus.html">Contact Us</a></td>
         </tr>
-
-        <tr><td colspan = "4">
-            <h1> Robby Glenn </h1>
-            <h2>CSC 110 Web Pages</h2>
-            <h3>
-                <ul>
-                    <li><a href = "helloworld.html"> Hello World </a></li>
-                    <li><a href = "bagels.html"> Bagels </a></li>
-                    <li><a href = "planets.html">Planets </a></li>
-                    <li><a href = "githubinfo.html">All About GitHub </a></li>
-                    <li><a href = "home.html">Tinker vs Des Moines</a></li>
-                </ul>
-            </h3>
-            <h2>Chapter Terms</h2>
-            <h3>
-                <ul>
-                    <li><a href = "opsys.html">Chapter 3 Operating System</a></li>
-                    <li><a href = "network.html">Chapter 4 Networking</li>
-                    <li><a href = "programming.html">Chapter 5 Programming Algorithms & Software</li>
-                    <li><a href = "proglang.html">Chapter 6 Programming Languages</li>
-                    <li><a href = "software-eng.html">Chapter 7 Software Engineering</li>
-                </ul>
-            </h3>
-             <h2>Python</h2>
-            <h3>
-                <ul>
-                    <li><a href = "tempconverter.py">Temperature Converter: Celsius to Farhenheit </a></li>
-                    <li><a href = "tickets.py">Movie Tickets</a></li>
-                    <li><a href = "tuition.py">College Tuition Calculator</a></li>
-                    <li><a href = "freshfood.py">Fresh Food Employee Weekly Pay</a></li>
-                    <li><a href = "dogs.py">List of dog names</a></li>
-                    <li><a href = "magic8.py">MAGIC 8-BALL</a></li>
-                    <li><a href = "palermo.py">Palermo Pizza</a></li>
-                    <li><a href = "grades.py">Grades</a></li>
-                    <li><a href = "courses.py">Courses</a></li>
-                    <li><a href = "grades_files.py">Grades 3</a></li>
-                </ul>
-            </h3>
-        </td></tr>
-   </table>
+        <tr>
+            <td colspan="4">
+                <h1>Robby Glenn</h1>
+                <h2>CSC 110 Web Pages</h2>
+                <h3>
+                    <ul>
+                        <li><a href="helloworld.html">Hello World</a></li>
+                        <li><a href="bagels.html">Bagels</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="githubinfo.html">All About GitHub</a></li>
+                        <li><a href="home.html">Tinker vs Des Moines</a></li>
+                    </ul>
+                </h3>
+                <h2>Chapter Terms</h2>
+                <h3>
+                    <ul>
+                        <li><a href="opsys.html">Chapter 3 Operating System</a></li>
+                        <li><a href="network.html">Chapter 4 Networking</a></li>
+                        <li><a href="programming.html">Chapter 5 Programming Algorithms & Software</a></li>
+                        <li><a href="proglang.html">Chapter 6 Programming Languages</a></li>
+                        <li><a href="software-eng.html">Chapter 7 Software Engineering</a></li>
+                    </ul>
+                </h3>
+                <h2>Python</h2>
+                <h3>
+                    <ul>
+                        <li><a href="tempconverter.py">Temperature Converter: Celsius to Fahrenheit</a></li>
+                        <li><a href="tickets.py">Movie Tickets</a></li>
+                        <li><a href="tuition.py">College Tuition Calculator</a></li>
+                        <li><a href="freshfood.py">Fresh Food Employee Weekly Pay</a></li>
+                        <li><a href="dogs.py">List of dog names</a></li>
+                        <li><a href="magic8.py">MAGIC 8-BALL</a></li>
+                        <li><a href="palermo.py">Palermo Pizza</a></li>
+                        <li><a href="grades.py">Grades</a></li>
+                        <li><a href="courses.py">Courses</a></li>
+                        <li><a href="grades_files.py">Grades 3</a></li>
+                    </ul>
+                </h3>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
- 
